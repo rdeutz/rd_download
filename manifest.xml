@@ -2,15 +2,13 @@
 <install type="component" version="1.5.0">
 	<name>RD_Download</name>
 	<author>Robert Deutz</author>
-	<creationDate>13. November 2009</creationDate>
+	<creationDate>17. April 2015</creationDate>
 	<copyright>(C) 2009 Robert Deutz Business Solution. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<authorEmail>joomla@rdbs.net</authorEmail>
+	<authorEmail>rdeutz@googlemail.com</authorEmail>
 	<authorUrl>www.rdbs.de</authorUrl>
-	<version>0.9 <![CDATA[<br />( $Rev: 1 $ )]]></version>
-	<description>Simple Download Component<![CDATA[ <br />
-			$Id: manifest.xml 1 2010-01-23 16:43:49Z deutz $
-			]]></description>
+	<version>0.9.1</version>
+	<description>Simple Download Component - Security Fix</description>
 
 
 	<!-- Application/site -->

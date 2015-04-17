@@ -30,6 +30,9 @@ Legend:
 - -> Removed
 ! -> Note
 
+-- Version 0.9.1 -- April 2015 -----------------------------------------
+* unfiltered id, fix: makes sure id is an int
+
 
 -- Version 0.9 -- January 2009 -----------------------------------------
 
