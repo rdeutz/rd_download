@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rd-download/!svn/ver/1/trunk/admin/install
+END
+uninstall.sql
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rd-download/!svn/ver/1/trunk/admin/install/uninstall.sql
+END
+install.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rd-download/!svn/ver/1/trunk/admin/install/install.php
+END
+install.sql
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rd-download/!svn/ver/1/trunk/admin/install/install.sql
+END

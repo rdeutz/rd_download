@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>RD_Download</name>
+	<author>Robert Deutz</author>
+	<creationDate>13. November 2009</creationDate>
+	<copyright>(C) 2009 Robert Deutz Business Solution. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>joomla@rdbs.net</authorEmail>
+	<authorUrl>www.rdbs.de</authorUrl>
+	<version>0.9 <![CDATA[<br />( $Rev: 1 $ )]]></version>
+	<description>Simple Download Component<![CDATA[ <br />
+			$Id: manifest.xml 1 2010-01-23 16:43:49Z deutz $
+			]]></description>
+
+
+	<!-- Application/site -->
+	<files folder="site">
+		<file>rd_download.php</file>
+		<file>index.html</file>
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+		<folder>views</folder>
+	</files>
+	
+	<!-- Language/site -->
+	<languages>
+		<language tag="en-GB">lang/language/en-GB/en-GB.com_rd_download.ini</language>
+		<language tag="de-DE">lang/language/de-DE/de-DE.com_rd_download.ini</language>
+	</languages>
+	
+	<!-- Application/administrator -->
+	<administration>
+		<menu link="option=com_rd_download">RD Download</menu>
+		<files folder="admin">
+			<file>changelog.php</file>
+			<file>admin.rd_download.php</file>
+			<file>config.xml</file>
+			<file>index.html</file>
+			<file>readme.txt</file>
+			<folder>controllers</folder>
+			<folder>install</folder>
+			<folder>models</folder>
+			<folder>plugins</folder>			
+			<folder>views</folder>
+		</files>
+
+		<languages>
+			<language tag="en-GB">lang/administrator/language/en-GB/en-GB.com_rd_download.ini</language>
+			<language tag="en-GB">lang/administrator/language/en-GB/en-GB.com_rd_download.menu.ini</language>
+			<language tag="de-DE">lang/administrator/language/de-DE/de-DE.com_rd_download.ini</language>
+			<language tag="de-DE">lang/administrator/language/de-DE/de-DE.com_rd_download.menu.ini</language>
+		</languages>
+	</administration>
+
+
+	<!-- Installation -->
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install/install.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">install/uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+	<installfile>install/install.php</installfile>
+</install>
